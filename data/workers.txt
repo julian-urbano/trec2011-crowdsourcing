@@ -1,0 +1,542 @@
+id	country	run1pre	run1ski	run1acc	run1rej	run2pre	run2ski	run2acc	run2rej	run3pre	run3ski	run3acc	run3rej
+1	"India"	0	0	0	0	1	1	1	0	0	0	0	0
+2	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+3	"India"	0	0	0	0	6	0	4	2	0	0	0	0
+4	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+5	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+6	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+7	"United States"	0	0	0	0	5	0	0	0	0	0	0	0
+12	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+13	"United Kingdom"	2	0	0	0	0	0	0	0	0	0	0	0
+15	"Moldova"	0	0	0	0	1	0	0	0	0	0	0	0
+16	"India"	0	0	0	0	0	0	0	0	2	1	0	0
+17	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+18	"Pakistan"	0	0	0	0	0	0	0	0	1	0	0	0
+19	"India"	0	0	0	0	2	0	0	1	0	0	0	0
+20	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+21	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+22	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+23	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+24	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+25	"Switzerland"	0	0	0	0	1	0	0	0	0	0	0	0
+26	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+27	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+28	"India"	0	0	0	0	13	0	6	2	0	0	0	0
+29	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+30	"India"	0	0	0	0	2	2	13	1	0	2	30	0
+33	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+34	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+35	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+36	"India"	0	0	0	0	3	0	0	1	0	0	0	0
+37	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+38	"India"	0	0	0	0	1	1	0	0	0	0	0	0
+39	"India"	0	0	0	0	7	2	0	0	0	0	0	0
+44	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+45	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+46	"India"	0	0	0	0	0	0	0	0	5	0	0	0
+51	"India"	0	0	0	0	23	0	18	2	0	0	0	0
+75	"India"	12	1	23	0	0	0	0	0	0	0	0	0
+85	"India"	0	0	0	0	3	1	0	0	0	0	0	0
+86	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+87	"India"	7	0	6	0	0	0	0	0	0	0	0	0
+88	"India"	5	0	42	0	1	1	8	1	0	0	0	0
+89	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+90	"India"	0	0	0	0	1	0	0	0	2	0	0	0
+91	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+92	"India"	0	0	0	0	1	0	0	2	0	0	0	0
+93	"India"	0	0	0	0	2	2	2	1	0	0	0	0
+94	"India"	0	0	0	0	5	1	1	0	0	0	0	0
+95	"India"	0	0	0	0	2	0	0	2	0	0	0	0
+96	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+97	"India"	0	0	0	0	3	2	0	0	0	0	0	0
+99	"India"	0	0	0	0	0	0	0	0	2	0	0	0
+100	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+101	"Pakistan"	0	0	0	0	2	0	1	0	0	0	0	0
+102	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+103	"United States"	0	0	0	0	2	0	1	0	0	0	0	0
+104	"United States"	0	0	0	0	0	0	0	0	3	0	0	0
+105	"India"	0	0	0	0	1	0	0	0	1	0	0	0
+106	"India"	1	1	0	0	1	0	0	0	0	0	0	0
+107	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+108	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+109	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+110	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+111	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+112	"India"	0	0	0	0	3	1	0	0	0	0	0	0
+113	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+114	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+115	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+116	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+117	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+118	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+119	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+120	"India"	45	0	7	0	5	0	0	0	49	0	12	0
+121	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+122	"India"	2	1	0	0	0	0	0	0	0	0	0	0
+123	"India"	0	0	0	0	5	0	0	0	0	0	0	0
+124	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+125	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+126	"India"	0	0	0	0	3	0	1	1	0	0	0	0
+127	"India"	0	0	0	0	7	1	0	0	0	0	0	0
+128	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+129	"India"	0	0	0	0	0	0	0	0	4	6	1	2
+130	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+131	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+132	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+133	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+134	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+135	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+136	"India"	3	0	0	0	0	0	0	0	0	0	0	0
+137	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+138	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+139	"India"	0	0	0	0	1	1	0	0	0	0	0	0
+140	"India"	0	0	0	0	1	1	0	0	0	0	0	0
+141	"India"	0	0	0	0	1	0	11	2	0	0	0	0
+142	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+143	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+144	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+145	"India"	2	1	0	0	0	0	0	0	0	0	0	0
+146	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+147	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+148	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+149	"India"	0	0	0	0	1	0	0	0	2	0	0	0
+150	"India"	0	0	0	0	0	0	0	0	4	0	0	0
+152	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+153	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+154	"India"	4	1	0	0	1	0	0	0	0	0	0	0
+156	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+157	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+158	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+159	"India"	0	0	0	0	0	0	0	0	6	0	46	2
+160	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+161	"India"	33	27	51	0	0	0	0	0	0	0	0	0
+162	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+163	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+164	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+165	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+166	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+167	"India"	0	0	0	0	2	0	0	2	0	0	0	0
+168	"India"	0	0	0	0	0	0	0	0	3	0	0	0
+169	"India"	0	0	0	0	9	1	0	0	0	0	0	0
+170	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+171	"India"	0	0	0	0	13	0	10	1	4	0	4	0
+172	"India"	0	0	0	0	6	1	0	0	1	0	0	0
+173	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+174	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+175	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+176	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+177	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+178	"India"	0	0	0	0	1	0	13	2	0	0	0	0
+179	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+180	"India"	0	0	0	0	1	0	1	2	0	0	0	0
+181	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+182	"India"	0	0	0	0	16	1	0	0	0	0	0	0
+183	"India"	0	0	0	0	6	0	3	2	0	0	0	0
+184	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+185	"India"	0	0	0	0	2	0	0	0	1	0	0	0
+186	"India"	0	0	0	0	6	1	0	0	0	0	0	0
+187	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+188	"India"	0	0	0	0	0	0	0	0	2	0	0	0
+189	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+190	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+191	"India"	0	0	0	0	10	1	6	1	0	0	0	0
+192	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+193	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+194	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+195	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+196	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+197	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+198	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+199	"India"	0	0	0	0	2	0	2	2	0	0	0	0
+200	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+201	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+202	"India"	0	0	0	0	2	1	0	0	0	0	0	0
+203	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+204	"India"	0	0	0	0	8	1	13	2	0	0	0	0
+205	"India"	0	0	0	0	3	0	0	0	5	1	0	0
+207	"India"	0	0	0	0	1	0	6	3	2	0	0	0
+208	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+209	"India"	0	0	0	0	2	0	1	0	0	1	17	2
+212	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+213	"Indonesia"	0	0	0	0	2	0	0	0	0	0	0	0
+214	"Pakistan"	1	0	0	0	0	0	0	0	0	0	0	0
+215	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+216	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+217	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+218	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+219	"India"	0	0	0	0	24	1	12	0	1	0	0	0
+221	"India"	1	0	0	0	1	0	0	0	0	0	0	0
+223	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+224	"India"	0	0	0	0	2	0	0	2	0	0	0	0
+225	"India"	0	0	0	0	4	1	0	0	0	0	0	0
+226	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+227	"United States"	1	1	0	0	17	0	0	0	2	0	0	0
+228	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+229	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+230	"India"	0	0	0	0	1	0	0	0	1	0	0	0
+231	"India"	0	0	0	0	2	1	0	0	0	0	0	0
+232	"India"	0	0	0	0	0	0	0	0	5	0	3	0
+233	"India"	3	1	9	0	2	0	3	2	0	0	0	0
+234	"India"	0	0	0	0	4	0	0	0	0	0	0	0
+235	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+236	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+237	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+238	"India"	0	0	0	0	2	0	0	0	1	1	0	0
+239	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+240	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+241	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+242	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+243	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+244	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+245	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+246	"India"	1	0	0	0	0	0	0	0	1	0	0	0
+247	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+248	"India"	1	0	0	0	0	0	0	0	1	0	0	0
+249	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+250	"India"	0	0	0	0	6	2	3	1	0	0	0	0
+251	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+252	"India"	0	0	0	0	8	1	2	0	1	0	0	0
+253	"India"	0	0	0	0	0	0	0	0	0	0	0	0
+254	"India"	0	0	0	0	38	1	19	2	0	0	0	0
+255	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+256	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+257	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+258	"India"	0	0	0	0	0	0	0	0	14	0	51	0
+259	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+260	"India"	0	0	0	0	11	0	18	2	0	0	0	0
+261	"India"	25	0	16	0	15	0	11	1	0	0	0	0
+262	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+263	"India"	0	0	0	0	2	0	1	0	0	0	0	0
+264	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+265	"India"	0	0	0	0	1	0	0	0	1	0	0	0
+267	"India"	0	0	0	0	2	1	0	0	0	0	0	0
+268	"India"	0	0	0	0	3	0	0	0	0	0	0	0
+269	"United Kingdom"	0	0	0	0	1	0	0	0	0	0	0	0
+270	"India"	0	0	0	0	0	0	0	0	5	1	0	0
+271	"India"	0	0	0	0	3	0	0	0	0	0	0	0
+272	"India"	0	0	0	0	1	0	3	2	0	0	0	0
+273	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+274	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+275	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+276	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+277	"India"	2	1	0	0	0	0	0	0	1	0	0	0
+278	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+279	"India"	0	0	0	0	3	2	0	0	0	0	0	0
+281	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+282	"India"	0	0	0	0	2	0	1	0	0	0	0	0
+283	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+284	"India"	0	0	0	0	16	0	11	2	0	0	0	0
+285	"India"	0	0	0	0	9	0	2	2	0	0	0	0
+295	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+296	"United States"	0	0	0	0	1	1	0	0	0	0	0	0
+297	"United States"	0	0	0	0	10	0	0	0	5	0	0	0
+312	"Japan"	0	0	0	0	1	0	0	0	1	0	0	0
+314	"Japan"	0	0	0	0	4	0	0	0	1	0	0	0
+319	"Japan"	0	0	0	0	1	0	0	0	0	0	0	0
+320	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+321	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+322	"Spain"	15	0	0	0	5	0	0	0	2	0	0	0
+328	"Spain"	0	0	0	0	1	0	0	0	0	0	0	0
+329	"Spain"	1	0	0	0	2	0	0	0	0	0	0	0
+330	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+331	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+332	"United States"	0	0	0	0	10	0	4	2	0	0	0	0
+343	"United States"	0	0	0	0	3	0	0	0	0	0	0	0
+344	"United States"	1	0	0	0	4	1	0	0	4	0	0	0
+345	"United States"	1	0	0	0	1	0	0	0	0	0	0	0
+347	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+348	"United States"	0	0	0	0	5	2	4	1	1	0	0	1
+349	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+350	"United States"	0	0	0	0	1	0	0	0	1	0	0	0
+352	"United States"	0	0	0	0	3	0	0	0	0	0	0	0
+353	"United States"	1	0	0	0	2	0	0	0	0	0	0	0
+354	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+355	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+356	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+357	"United States"	0	0	0	0	2	0	0	2	0	0	0	0
+358	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+359	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+360	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+361	"Switzerland"	1	0	0	0	0	0	0	0	0	0	0	0
+362	"Yugoslavia"	0	0	0	0	11	0	14	2	0	0	0	0
+363	"Bangladesh"	0	0	0	0	15	0	3	2	0	0	0	0
+364	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+365	"Philippines"	0	0	0	0	0	0	0	0	2	1	0	0
+366	"Philippines"	0	0	0	0	5	1	0	0	0	0	0	0
+367	"Philippines"	0	0	0	0	1	1	0	0	0	0	0	0
+368	"India"	0	0	0	0	0	0	0	0	0	0	0	0
+369	"Belgium"	0	0	0	0	0	0	0	0	2	0	0	0
+370	"India"	0	0	0	0	3	0	1	0	0	0	0	0
+371	"India"	0	0	0	0	0	0	0	0	3	1	0	0
+372	"India"	0	0	0	0	1	1	0	0	0	0	0	0
+373	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+374	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+375	"India"	0	0	0	0	0	0	0	0	2	1	0	0
+376	"India"	2	4	2	0	5	1	1	2	0	0	0	0
+377	"United States"	0	0	0	0	0	0	0	0	2	1	0	0
+378	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+379	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+380	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+381	"United States"	0	0	0	0	0	0	0	0	72	0	35	0
+382	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+383	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+384	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+385	"Yugoslavia"	0	0	0	0	6	0	0	0	0	0	0	0
+386	"Saudi Arabia"	2	1	1	0	4	0	4	0	0	0	0	0
+388	"Switzerland"	0	0	0	0	1	0	0	0	0	0	0	0
+389	"Guatemala"	0	0	0	0	0	0	0	0	1	0	0	0
+390	"Portugal"	0	0	0	0	0	0	0	0	1	1	0	0
+391	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+392	"Canada"	0	0	0	0	0	0	0	0	1	0	0	0
+393	"United Arab Emirates"	0	0	0	0	27	0	12	1	11	0	2	0
+394	"United Arab Emirates"	0	0	0	0	0	0	0	0	23	1	7	0
+395	"United States"	9	2	23	1	0	0	0	0	0	0	0	0
+397	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+398	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+399	"India"	2	0	1	0	0	0	0	0	0	0	0	0
+400	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+401	"United States"	0	0	0	0	4	0	1	1	1	0	0	0
+404	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+405	"United States"	0	0	0	0	4	1	6	1	0	0	0	0
+406	"United States"	14	11	16	0	1	0	1	0	0	0	0	0
+407	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+408	"United States"	2	1	5	0	0	0	0	0	0	0	0	0
+410	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+411	"United States"	0	0	0	0	3	0	1	1	0	0	0	0
+412	"United States"	0	0	0	0	8	1	0	0	1	0	0	0
+413	"United States"	0	0	0	0	25	1	3	0	0	0	0	0
+414	"India"	0	0	0	0	0	0	0	0	15	1	10	0
+416	"United Kingdom"	4	2	3	0	0	0	0	0	0	0	0	0
+417	"Kenya"	0	0	0	0	2	0	0	0	0	0	0	0
+418	"Lithuania"	0	0	0	0	0	0	0	0	4	2	1	0
+419	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+420	"United States"	0	0	0	0	3	0	0	0	1	0	0	0
+424	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+425	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+426	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+427	"United States"	1	0	0	0	2	1	0	0	0	0	0	0
+428	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+429	"India"	3	0	1	0	0	0	0	0	0	0	0	0
+430	"Australia"	0	0	0	0	0	0	0	0	7	1	0	0
+431	"India"	0	0	0	0	0	0	0	0	3	0	0	0
+434	"India"	0	0	0	0	0	0	0	0	4	0	3	0
+435	"India"	0	0	0	0	3	0	0	0	0	0	0	0
+438	"India"	0	0	0	0	0	0	0	0	4	0	0	0
+442	"India"	0	0	0	0	2	0	5	2	0	0	0	0
+445	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+446	"United States"	0	0	0	0	1	0	0	0	2	0	0	0
+447	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+448	"United States"	0	0	0	0	1	1	0	0	0	0	0	0
+449	"United States"	0	0	0	0	4	0	1	0	4	1	0	1
+450	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+451	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+452	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+453	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+454	"United States"	0	0	0	0	2	0	0	0	0	0	0	0
+455	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+456	"United States"	3	0	1	0	0	0	0	0	6	0	2	0
+459	"United States"	0	0	0	0	0	0	0	0	2	0	0	0
+460	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+461	"United States"	0	0	0	0	3	0	1	1	0	0	0	0
+462	"United States"	0	0	0	0	1	0	0	0	1	0	0	0
+464	"United States"	33	0	28	0	8	0	2	1	0	0	0	0
+507	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+508	"India"	0	0	0	0	0	0	0	0	2	0	0	0
+509	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+510	"India"	0	0	0	0	0	0	0	0	2	0	1	1
+511	"India"	0	0	0	0	3	0	0	1	0	0	0	0
+512	"India"	0	0	0	0	4	0	1	1	0	0	0	0
+513	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+514	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+515	"United States"	0	0	0	0	1	1	0	0	0	0	0	0
+516	"Egypt"	0	0	0	0	0	0	0	0	1	0	0	0
+517	"India"	0	0	0	0	3	1	0	0	0	0	0	0
+518	"Poland"	0	0	0	0	1	0	0	0	0	0	0	0
+519	"Yugoslavia"	0	0	0	0	0	0	0	0	0	0	0	0
+520	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+521	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+522	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+523	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+524	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+525	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+526	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+527	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+528	"India"	0	0	0	0	0	0	0	0	4	0	11	0
+529	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+530	"Pakistan"	0	0	0	0	2	0	0	0	0	0	0	0
+531	"India"	0	0	0	0	3	0	0	1	0	0	0	0
+535	"India"	0	0	0	0	3	0	0	2	0	0	0	0
+536	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+537	"India"	1	0	0	0	0	0	0	0	1	0	0	0
+538	"India"	23	3	51	1	0	0	0	0	0	0	0	0
+539	"India"	0	0	0	0	12	3	15	3	0	0	0	0
+540	"India"	0	0	0	0	0	0	0	0	2	1	0	0
+541	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+542	"India"	0	0	0	0	0	0	0	0	3	0	1	0
+543	"India"	2	0	5	0	2	0	6	2	0	0	0	0
+544	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+545	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+546	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+547	"India"	0	0	0	0	2	0	0	0	0	0	0	0
+548	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+549	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+550	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+551	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+552	"India"	0	0	0	0	1	0	0	0	2	1	0	0
+553	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+554	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+555	"India"	0	0	0	0	0	0	0	0	1	0	0	0
+556	"India"	1	0	0	0	0	0	0	0	0	0	0	0
+557	"Finland"	9	2	50	1	3	1	0	0	4	2	43	1
+560	"Switzerland"	0	0	0	0	4	1	0	0	0	0	0	0
+561	"United States"	5	2	7	0	0	0	0	0	0	0	0	0
+562	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+563	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+564	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+565	"United States"	0	0	0	0	2	0	0	0	0	0	0	0
+567	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+568	"United States"	0	0	0	0	3	0	2	3	0	0	0	0
+569	"United States"	0	0	0	0	6	0	1	1	1	0	0	0
+570	"United States"	0	0	0	0	0	0	0	0	2	1	0	0
+571	"United States"	0	0	0	0	0	0	0	0	2	1	0	0
+572	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+573	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+574	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+575	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+576	"United States"	0	0	0	0	2	0	1	0	0	0	0	0
+577	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+578	"United States"	0	0	0	0	0	0	0	0	4	0	5	0
+579	"United States"	0	0	0	0	2	0	0	0	0	0	0	0
+581	"United States"	0	0	0	0	0	0	0	0	1	1	0	0
+582	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+583	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+584	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+585	"United States"	0	0	0	0	5	1	0	0	0	0	0	0
+591	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+592	"United States"	0	0	0	0	0	0	0	0	3	0	0	0
+593	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+594	"United States"	0	0	0	0	0	0	0	0	3	1	0	0
+595	"United States"	0	0	0	0	2	1	0	0	0	0	0	0
+596	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+597	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+598	"United States"	99	1	51	0	0	0	0	0	0	0	0	0
+599	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+600	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+601	"United States"	2	0	0	0	0	0	0	0	0	0	0	0
+602	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+603	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+604	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+605	"United States"	0	0	0	0	0	0	0	0	3	1	0	0
+606	"United States"	0	0	0	0	4	0	0	0	1	0	0	0
+607	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+609	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+610	"United States"	0	0	0	0	1	0	0	0	1	0	0	0
+611	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+612	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+613	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+614	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+615	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+616	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+617	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+618	"Canada"	1	1	0	0	0	0	0	0	0	0	0	0
+619	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+620	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+621	"United States"	0	0	0	0	5	0	0	1	0	0	0	0
+622	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+623	"United States"	0	0	0	0	0	0	0	0	3	0	2	0
+625	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+626	"United States"	0	0	0	0	3	3	15	0	4	0	7	2
+628	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+629	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+630	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+631	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+632	"United States"	0	0	0	0	0	0	0	0	7	0	4	0
+633	"United States"	0	0	0	0	2	0	0	0	0	0	0	0
+634	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+635	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+636	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+637	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+638	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+639	"United States"	0	0	0	0	6	0	1	0	3	0	0	0
+642	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+643	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+644	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+645	"United States"	4	0	11	0	0	0	0	0	4	0	21	1
+647	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+648	"United States"	0	0	0	0	1	0	0	0	3	1	0	0
+650	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+651	"Jamaica"	0	0	0	0	7	1	5	0	0	0	0	0
+652	"Canada"	0	0	0	0	1	0	0	0	0	0	0	0
+653	"United States"	2	3	0	0	9	0	26	2	0	0	0	0
+660	"United States"	0	0	0	0	2	1	0	0	8	2	8	0
+661	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+662	"United States"	0	0	0	0	1	0	0	0	1	0	0	0
+664	"United States"	10	1	0	0	9	0	0	0	1	0	0	0
+665	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+666	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+668	"United States"	4	0	1	0	0	0	0	0	0	0	0	0
+669	"United States"	0	0	0	0	8	1	3	1	0	0	0	0
+678	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+679	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+680	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+681	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+682	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+683	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+684	"United States"	0	0	0	0	1	0	4	2	5	0	5	0
+685	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+686	"United States"	0	0	0	0	3	0	1	0	0	0	0	0
+687	"United States"	0	0	0	0	0	0	0	0	5	1	16	0
+688	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+689	"United States"	8	0	1	0	0	0	0	0	0	0	0	0
+691	"United States"	0	0	0	0	1	0	0	0	1	0	0	0
+692	"United States"	0	0	0	0	1	1	0	0	0	0	0	0
+693	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+694	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+695	"United States"	0	0	0	0	5	1	0	0	0	0	0	0
+696	"United States"	0	0	0	0	3	0	2	0	0	0	0	0
+697	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+698	"Macedonia"	0	0	0	0	1	0	0	0	0	0	0	0
+699	"Yugoslavia"	0	0	0	0	0	0	0	0	1	0	0	0
+700	"France"	0	0	0	0	8	1	24	2	0	0	0	0
+702	"Romania"	0	0	0	0	1	0	0	0	2	1	0	0
+703	"Romania"	0	0	0	0	0	0	0	0	1	0	0	0
+704	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+705	"India"	0	0	0	0	1	0	0	0	0	0	0	0
+706	"United Kingdom"	0	0	0	0	3	1	0	0	0	0	0	0
+707	"Netherlands"	0	0	0	0	0	0	0	0	1	0	0	0
+708	"Germany"	0	0	0	0	1	0	0	0	0	0	0	0
+709	"United Kingdom"	0	0	0	0	3	0	1	0	0	0	0	0
+710	"Spain"	0	0	0	0	7	0	0	0	7	0	0	0
+711	"Romania"	1	0	0	0	0	0	0	0	0	0	0	0
+712	"United Kingdom"	0	0	0	0	0	0	0	0	8	0	16	0
+713	"Slovenia"	1	0	0	0	1	0	0	0	0	0	0	0
+714	"Romania"	0	0	0	0	0	0	0	0	1	0	0	0
+715	"Finland"	0	0	0	0	0	0	0	0	2	0	0	0
+716	"United Kingdom"	0	0	0	0	1	0	0	0	0	0	0	0
+717	"Slovenia"	1	0	1	0	2	0	1	0	7	1	2	0
+718	"Lebanon"	0	0	0	0	2	1	0	0	0	0	0	0
+719	"United Kingdom"	0	0	0	0	8	1	17	2	0	0	0	0
+720	"Croatia"	0	0	0	0	4	0	1	0	0	0	0	0
+721	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+722	"United States"	0	0	0	0	4	1	0	0	0	0	0	0
+723	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+724	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+725	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+726	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+727	"United States"	0	0	0	0	0	0	0	0	1	0	0	0
+728	"United States"	0	0	0	0	12	0	6	2	0	0	0	0
+729	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+730	"United States"	0	0	0	0	5	1	5	0	7	1	25	0
+731	"United States"	0	0	0	0	4	0	5	1	17	3	44	0
+736	"United States"	0	0	0	0	1	0	0	2	0	0	0	0
+737	"United States"	0	0	0	0	0	0	0	0	1	1	0	0
+738	"United States"	0	0	0	0	2	0	0	0	0	0	0	0
+739	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+740	"United States"	0	0	0	0	9	1	0	0	2	0	0	0
+741	"United States"	5	0	13	0	3	0	0	2	0	0	0	0
+742	"United States"	4	0	3	0	0	0	0	0	0	0	0	0
+743	"United States"	0	0	0	0	1	0	0	0	0	0	0	0
+744	"United States"	0	0	0	0	0	0	0	0	0	0	0	0
+745	"United States"	1	0	0	0	0	0	0	0	0	0	0	0
+746	"United States"	4	1	6	0	8	1	13	2	0	0	0	0
+759	"United States"	0	0	0	0	0	0	0	0	1	0	0	0

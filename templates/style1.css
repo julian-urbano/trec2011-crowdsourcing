@@ -1,0 +1,126 @@
+﻿body 
+{
+    font-family:Arial,Sans-Serif;
+    font-size:12px;
+    color:Black;
+    background-color:White;
+    margin:0px;
+}
+.title
+{
+    font-size:15px;
+    font-weight:bold;
+}
+.text
+{
+    margin:0px;
+    padding:0px;
+}
+.hint
+{
+    color:Blue;
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+#instructions
+{
+    border:2px solid #FAD163;
+    background-color:#FFF7D7;
+}
+#topic
+{
+    margin-top:5px;
+    border:2px solid #A9DA92;
+    background-color:#D4EDC9; 
+}
+#docs
+{
+    border:2px solid #BBCCFF;
+    background-color:#BBCCFF;
+    margin:0 5px 0 5px;
+}
+    #docTabs
+    {
+        background-color:#BBCCFF;
+        float:right;
+    }
+        .docTab
+        {
+            padding:5px 10px 5px 10px;
+            display:inline-block;
+            font-weight:bold;
+            color:#0000CC;
+        }
+            .docTabOn
+            {
+                cursor:auto;
+                background-color:#E3E9FF;
+                text-decoration:None;
+                color:Black;
+            }
+            .docTabOff
+            {
+                cursor:pointer;
+                text-decoration:Underline;
+            }
+            .docTabOff:hover
+            {
+                background-color:#D1D7EE;
+            }
+    .docFrames
+    {
+        background-color:#E3E9FF;
+        margin-right:320px;
+        padding:5px;
+        height:500px;
+        clear:left;
+    }
+        #docFrame
+        {
+            border:none;
+            background-color:White;
+        }
+    #answers
+    {
+        padding:5px 0px 0px 0px;
+        width:320px;
+        float:right;
+        background-color:#BBCCFF;
+    }
+        #answers .title
+        {
+            padding:0px 5px 2px 5px;
+            text-align:right;
+            border-bottom:1px solid #E3E9FF;
+        }
+        #ansTabs
+        {
+            padding:0px;
+        }
+            .ansTab
+            {
+                padding:5px 5px 5px 5px;
+                border-bottom:1px solid #E3E9FF;
+            }
+                .ansTabOn
+                {
+                    background-color:#E3E9FF;
+                }
+                .ansTabOff
+                {
+                    color:#666666;    
+                    background-color:inherit;                    
+                }
+#footer
+{
+    margin:5px;
+    padding:5px;
+    border:2px solid #AAAAAA;
+    background-color:#DDDDDD;
+}
+    #tip
+    {
+        color:#FF4455;
+        font-weight:bold;
+    }

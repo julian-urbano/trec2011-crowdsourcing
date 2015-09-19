@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link type="text/css" rel="Stylesheet" href="./style1.css" />
+    <link type="text/css" rel="Stylesheet" href="./slider3.css" />
+    <script type="text/javascript" language="javascript" src="./jquery-1.2.4a.js"></script>
+    <script type="text/javascript" language="javascript" src="./ui.base.js"></script>
+    <script type="text/javascript" language="javascript" src="./ui.slider.js"></script>
+    <script type="text/javascript" language="javascript">
+        function blink(id, bgcolor, bordercolor, repeat) {
+            if (repeat > 0) {
+                document.getElementById(id).style.backgroundColor = bordercolor;
+                setTimeout("blink('" + id + "','" + bordercolor + "','" + bgcolor + "'," + (repeat - 1) + ")", 300);
+            }
+        }
+        function changeToDoc(newDoc) {
+            now = new Date();
+            ms = now.getTime() - then.getTime();
+            document.getElementById("docTime" + display + currentDoc).value = parseInt(document.getElementById("docTime" + display + currentDoc).value) + ms;
+
+            then = now;
+
+            var topic = '20780';
+            var docIds = ['clueweb09-en0064-85-01701', 'clueweb09-en0068-72-21946', 'clueweb09-en0076-50-36941', 'clueweb09-en0077-64-03256', 'clueweb09-en0089-02-18500'];
+            document.getElementById('docFrame').src = 'http://search.yahoo.com/search?p=Highlight' + display + '%20' + docIds[newDoc - 1];
+
+            for (i = 1; i <= 5; i++) {
+                if (i != newDoc) {                    
+                    document.getElementById('docTab' + i).className = 'docTab docTabOff';
+                    document.getElementById('ansTab' + i).className = 'ansTab ansTabOff';
+                    document.getElementById('ansKey' + i + 'a').disabled = true;
+                    document.getElementById('ansKey' + i + 'b').disabled = true;
+                    $('#ansRelSlider'+i).slider('disable');
+					document.getElementById('ansRelSlider'+i).style.cursor = 'default';
+					document.getElementById('handler'+i).style.cursor = 'default';
+                } else {
+                    document.getElementById('docTab' + i).className = 'docTab docTabOn';
+                    document.getElementById('ansTab' + i).className = 'ansTab ansTabOn';
+                    document.getElementById('ansKey' + i + 'a').disabled = false;
+                    document.getElementById('ansKey' + i + 'b').disabled = false;
+                    $('#ansRelSlider'+i).slider('enable');
+					document.getElementById('ansRelSlider'+i).style.cursor = 'pointer';
+					document.getElementById('handler'+i).style.cursor = 'w-resize';
+                }
+            }
+            currentDoc = newDoc;
+        }
+        function checkAnswers() {
+           changeToDoc(currentDoc);
+            for (i = 1; i <= 5; i++) {
+                if (document.getElementById('ansKey' + i + 'a').checked == false &&
+                    document.getElementById('ansKey' + i + 'b').checked == false) {
+                    document.getElementById('tip').innerHTML = "You did not select the best keywords for Page " + i;
+                    return false;
+                }
+                if (moved[i-1]==false) {
+                    document.getElementById('tip').innerHTML = "You did not tell us if Page " + i + " is a good or bad result (click on the thick line to set your response)";
+                    return false;
+                }
+            }
+            for (i = 1; i <= 5; i++) {
+                document.getElementById('ansKey' + i + 'a').disabled = false;
+                document.getElementById('ansKey' + i + 'b').disabled = false;
+                document.getElementById('ansRel' + i).value = $('#ansRelSlider'+i).slider('value');
+            }
+            document.getElementById('tip').innerHTML = "Your answer would now be ready to submit!";
+            return false;
+        }
+        function updateTime() {
+            /* changeToDoc(currentDoc);
+            var oXmlHttp = GetHttpRequest();
+            oXmlHttp.OnReadyStateChange = function () { };
+            oXmlHttp.open('GET', 'http://www.myserver.com/UpdateTime.aspx?assId=assignmentId'+
+                '&docTimeImages1='+document.getElementById('docTimeImages1').value+
+                '&docTimeImages2='+document.getElementById('docTimeImages2').value+
+                '&docTimeImages3='+document.getElementById('docTimeImages3').value+
+                '&docTimeImages4='+document.getElementById('docTimeImages4').value+
+                '&docTimeImages5='+document.getElementById('docTimeImages5').value+
+                        
+                '&docTimePlain1='+document.getElementById('docTimePlain1').value+
+                '&docTimePlain2='+document.getElementById('docTimePlain2').value+
+                '&docTimePlain3='+document.getElementById('docTimePlain3').value+
+                '&docTimePlain4='+document.getElementById('docTimePlain4').value+
+                '&docTimePlain5='+document.getElementById('docTimePlain5').value, true);
+            oXmlHttp.send(null); */
+            setTimeout("updateTime()", 10000);
+        }
+        function GetHttpRequest() {
+            if (window.XMLHttpRequest) // Gecko
+                return new XMLHttpRequest();
+            else if (window.ActiveXObject) // IE
+                return new ActiveXObject("MsXml2.XmlHttp");
+        }
+    </script>
+</head>
+<body>
+<form method="get" action="#" onsubmit="return checkAnswers();">
+    <input type="hidden" name="numTrial" value="runId" />
+    <input type="hidden" name="setId" value="239" />
+    <input type="hidden" name="HITId" value="HITId" />
+    <input type="hidden" name="workerId" value="workerId" />
+    <input type="hidden" name="assignmentId" value="assignmentId1" />
+    <input type="hidden" name="assId" value="assignmentId2" />
+    <input type="hidden" name="docTimeImages1" id="docTimeImages1" value="0" />
+    <input type="hidden" name="docTimeImages2" id="docTimeImages2" value="0" />
+    <input type="hidden" name="docTimeImages3" id="docTimeImages3" value="0" />
+    <input type="hidden" name="docTimeImages4" id="docTimeImages4" value="0" />
+    <input type="hidden" name="docTimeImages5" id="docTimeImages5" value="0" />
+    <input type="hidden" name="docTimePlain1" id="docTimePlain1" value="0" />
+    <input type="hidden" name="docTimePlain2" id="docTimePlain2" value="0" />
+    <input type="hidden" name="docTimePlain3" id="docTimePlain3" value="0" />
+    <input type="hidden" name="docTimePlain4" id="docTimePlain4" value="0" />
+    <input type="hidden" name="docTimePlain5" id="docTimePlain5" value="0" />
+    <input type="hidden" name="ansRel1" id="ansRel1" value="50" />
+    <input type="hidden" name="ansRel2" id="ansRel2" value="50" />
+    <input type="hidden" name="ansRel3" id="ansRel3" value="50" />
+    <input type="hidden" name="ansRel4" id="ansRel4" value="50" />
+    <input type="hidden" name="ansRel5" id="ansRel5" value="50" />
+
+    <table cellpadding="5" cellspacing="5" border="0" width="100%"><tr valign="top">
+    <td id="instructions">
+        <div class="title">Instructions</div>
+        <div class="text">In these HITs we show you <span class="hint" onclick="blink('docTabs','#BBCCFF','#FAD163',6);">5 web pages</span> returned by a search engine.
+            We tell you <span class="hint" onclick="blink('topic','#D4EDC9','#FAD163',6);">what we were searching for</span> in each case, and what <span style="text-decoration:Underline;">good results</span> are for the topic.<br />            
+            You have to tell us <span class="hint" onclick="blink('answers','#BBCCFF','#FAD163',6);">how good the pages are</span> for the search topic.
+            In addition, for each of the 5 pages we give you two sets of <span class="hint" onclick="blink('answers','#BBCCFF','#FAD163',6);">keywords</span>, and you will have to select the one that <span style="text-decoration:Underline;">best describes</span> the page.</br>
+            Please note that you might need to <span style="text-decoration:Underline;">scroll down</span> the web pages to see them completely. Note also that you have two <span class="hint" onclick="blink('displayMode','#BBCCFF','#FAD163',6);">display modes</span>: 
+            with images or just with the text.<br />
+            When all HITs get done, we will compare your answers with other workers&#39;. The 
+            least accurate workers will receive a 15% penalization, and the most accurate 
+            ones will get bonuses.</div>
+    </td>
+    <td id="topic">
+        <div class="title">Topic</div>
+        <div class="text">We are looking for <strong class="title">biography of Fighting Joe Wheeler.</strong><br />
+        <span style="text-decoration:Underline;">Good results are:</span> pages about General Joseph Wheeler's biography.<br />
+        <span style="text-decoration:Underline;">Bad results are:</span> pages that simply mention the General but do not elaborate.</div>
+    </td>
+    </tr></table>
+    <div id="docs">  
+        <div id="answers">
+                <div class="title">Your Answer</div>
+            <div id="ansTabs">
+                <div id="ansTab1" class="ansTab ansTabOn">
+                    <strong>Keywords to describe Page 1:</strong><br />
+                    <input type="radio" name="ansKey1" id="ansKey1a" value="1" />invited, parts, reconstructed, statues, fourth<br />
+                    <input type="radio" name="ansKey1" id="ansKey1b" value="2" />joe, general, derby, army, wheeler<br />
+                    <strong>Is Page 1 a good or bad result for the topic?</strong><br />
+                    <div id='ansRelSlider1' class='ui-slider-1'><div class='ui-slider-handle' id="handler1"></div></div>
+                </div>
+                <div id="ansTab2" class="ansTab ansTabOff">
+                    <strong>Keywords to describe Page 2:</strong><br />
+                    <input type="radio" name="ansKey2" id="ansKey2a" value="1" />jones, shoals, golf, trent, trail<br />
+                    <input type="radio" name="ansKey2" id="ansKey2b" value="2" />regional, directory, gadsden, staff, timesd<br />
+                    <strong>Is Page 2 a good or bad result for the topic?</strong><br />
+                    <div id='ansRelSlider2' class='ui-slider-1'><div class='ui-slider-handle' id="handler2"></div></div>
+                </div>
+                <div id="ansTab3" class="ansTab ansTabOff">
+                    <strong>Keywords to describe Page 3:</strong><br />
+                    <input type="radio" name="ansKey3" id="ansKey3a" value="1" />72297, fightingest, html, famous, muscle<br />
+                    <input type="radio" name="ansKey3" id="ansKey3b" value="2" />alabama, general, hall, war, return<br />
+                    <strong>Is Page 3 a good or bad result for the topic?</strong><br />
+                    <div id='ansRelSlider3' class='ui-slider-1'><div class='ui-slider-handle' id="handler3"></div></div>
+                </div>
+                <div id="ansTab4" class="ansTab ansTabOff">
+                    <strong>Keywords to describe Page 4:</strong><br />
+                    <input type="radio" name="ansKey4" id="ansKey4a" value="1" />subjects, keywords, hotels, course, library<br />
+                    <input type="radio" name="ansKey4" id="ansKey4b" value="2" />sherman, campaign, civil, general, war<br />
+                    <strong>Is Page 4 a good or bad result for the topic?</strong><br />
+                    <div id='ansRelSlider4' class='ui-slider-1'><div class='ui-slider-handle' id="handler4"></div></div>
+                </div>
+                <div id="ansTab5" class="ansTab ansTabOff">
+                    <strong>Keywords to describe Page 5:</strong><br />
+                    <input type="radio" name="ansKey5" id="ansKey5a" value="1" />wheeler, 18, three, foster, county<br />
+                    <input type="radio" name="ansKey5" id="ansKey5b" value="2" />demezier, chianetta, onewickedsoul, chloe, lloyd756<br />
+                    <strong>Is Page 5 a good or bad result for the topic?</strong><br />
+                    <div id='ansRelSlider5' class='ui-slider-1'><div class='ui-slider-handle' id="handler5"></div></div>
+                </div>
+            </div>
+        </div>
+        <div id="docTabs">
+            <div id="docTab1" class="docTab docTabOn" onclick="changeToDoc(1);">Page 1</div>
+            <div id="docTab2" class="docTab docTabOff" onclick="changeToDoc(2);">Page 2</div>
+            <div id="docTab3" class="docTab docTabOff" onclick="changeToDoc(3);">Page 3</div>
+            <div id="docTab4" class="docTab docTabOff" onclick="changeToDoc(4);">Page 4</div>
+            <div id="docTab5" class="docTab docTabOff" onclick="changeToDoc(5);">Page 5</div>
+        </div>
+        <div id="displayMode" style="padding:0px 5px 5px 5px;display:inline-block;"><strong>Display mode:</strong>
+        <input type="radio" id="displayImages" name="display_" onclick="display='Images';changeToDoc(currentDoc);" value="Images" checked="true" />With images
+        <input type="radio" id="displayPlain" name="display_" onclick="display='Plain';changeToDoc(currentDoc);" value="Plain" />Just text</div>
+        <div class="docFrames">
+            <iframe id="docFrame" src="./javascript.html" width="100%" height="100%">contenido</iframe>
+        </div>
+    </div>
+        <div style="clear:both;"></div>
+    <div id="footer">
+        Do you have any comments? <input type="text" name="comments" size="100" onkeypress="return !(window.event && window.event.keyCode == 13);" />
+        <div style="float:right;">
+        <span id="tip"></span> <input type="submit" id="submit" value="Submit HIT" style="font-weight:bold;" />
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</form>
+    <script language="javascript" type="text/javascript">
+        var moved = [false, false, false, false, false];
+        $('#ansRelSlider1').slider({ min: 0, max: 100, change: function (e, ui) { moved[0] = true; } });
+        $('#ansRelSlider2').slider({ min: 0, max: 100, change: function (e, ui) { moved[1] = true; } });
+        $('#ansRelSlider3').slider({ min: 0, max: 100, change: function (e, ui) { moved[2] = true; } });
+        $('#ansRelSlider4').slider({ min: 0, max: 100, change: function (e, ui) { moved[3] = true; } });
+        $('#ansRelSlider5').slider({ min: 0, max: 100, change: function (e, ui) { moved[4] = true; } });
+
+        $('#ansRelSlider1').slider("moveTo", 50);
+        $('#ansRelSlider2').slider("moveTo", 50);
+        $('#ansRelSlider3').slider("moveTo", 50);
+        $('#ansRelSlider4').slider("moveTo", 50);
+        $('#ansRelSlider5').slider("moveTo", 50);
+
+        $('#ansRelSlider1').mousedown(function () { if (currentDoc == 1) { moved[0] = true; document.getElementById('handler1').style.visibility = 'visible'; } });
+        $('#ansRelSlider2').mousedown(function () { if (currentDoc == 2) { moved[1] = true; document.getElementById('handler2').style.visibility = 'visible'; } });
+        $('#ansRelSlider3').mousedown(function () { if (currentDoc == 3) { moved[2] = true; document.getElementById('handler3').style.visibility = 'visible'; } });
+        $('#ansRelSlider4').mousedown(function () { if (currentDoc == 4) { moved[3] = true; document.getElementById('handler4').style.visibility = 'visible'; } });
+        $('#ansRelSlider5').mousedown(function () { if (currentDoc == 5) { moved[4] = true; document.getElementById('handler5').style.visibility = 'visible'; } });
+
+        var display = 'Images';
+        var then = new Date();
+        var currentDoc = 1;
+        moved = [false, false, false, false, false];
+
+        document.getElementById('handler1').style.visibility = 'hidden';
+        document.getElementById('handler2').style.visibility = 'hidden';
+        document.getElementById('handler3').style.visibility = 'hidden';
+        document.getElementById('handler4').style.visibility = 'hidden';
+        document.getElementById('handler5').style.visibility = 'hidden';
+
+        changeToDoc(1);
+        setTimeout("updateTime()", 10000);
+    </script>
+</body>
+</html>
