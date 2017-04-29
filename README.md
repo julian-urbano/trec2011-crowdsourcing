@@ -1,6 +1,6 @@
 This archive contains the data gathered for the following paper:
 
- * J. Urbano, M. Marrero, D. Martín, J. Morato, K. Robles and J. Lloréns, "[The University Carlos III of Madrid at TREC 2011 Crowdsourcing Track](http://julian-urbano.info/wp-content/uploads/035-university-carlos-iii-madrid-trec-2011-crowdsourcing-track.pdf)", *Text REtrieval Conference*, 2011.
+ * J. Urbano, M. Marrero, D. Martín, J. Morato, K. Robles and J. Lloréns, "[The University Carlos III of Madrid at TREC 2011 Crowdsourcing Track](http://julian-urbano.info/files/publications/035-university-carlos-iii-madrid-trec-2011-crowdsourcing-track.pdf)", *Text REtrieval Conference*, 2011.
 
 A [single ZIP file](https://github.com/julian-urbano/trec2011-crowdsourcing/archive/master.zip) can be downloaded as well.
 
